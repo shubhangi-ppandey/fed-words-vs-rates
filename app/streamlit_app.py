@@ -375,7 +375,7 @@ tone surprise S = τ − τ(previous scheduled statement). Classifiers are train
 
 **Inference.** HC3 standard errors, restricted wild bootstrap and permutation tests (9,999 draws), Holm corrections,
 Newey–West for local projections. All hypotheses, decision rules and the primary measure were fixed before any
-outcome regression; every change to the plan is logged in `reports/deviations.md`.
+outcome regression.
 
 **Limitations.** Tone is not randomly assigned: statement text may co-move with other information released in the
 same window. The holdout is short (~30 meetings). RoBERTa's general pretraining corpus pre-dates 2020, a residual
