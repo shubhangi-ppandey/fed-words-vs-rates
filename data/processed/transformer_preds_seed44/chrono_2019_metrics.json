@@ -1,0 +1,16 @@
+{
+  "job": "chrono_2019",
+  "seed": 44,
+  "n_train": 1898,
+  "steps": 714,
+  "collapsed": false,
+  "train_years": [
+    1996,
+    2018
+  ],
+  "train_macro_f1": 0.9595,
+  "eval_n": 116,
+  "eval_accuracy": 0.6983,
+  "eval_macro_f1": 0.6876,
+  "minutes": 2.34
+}

@@ -1,0 +1,135 @@
+
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 389/389 [00:00<00:00, 9154.58it/s]
+[done] {"job": "val", "seed": 42, "n_train": 1984, "steps": 620, "train_years": [1996, 2022], "train_macro_f1": 0.9367, "eval_n": 496, "eval_accuracy": 0.7278, "eval_macro_f1": 0.7203, "minutes": 3.2}
+
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 389/389 [00:00<00:00, 9815.99it/s]
+[done] {"job": "full", "seed": 42, "n_train": 2480, "steps": 775, "train_years": [1996, 2022], "train_macro_f1": 0.9459, "minutes": 3.88}
+
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 389/389 [00:00<00:00, 8161.68it/s]
+  chrono_1999: seed 42 collapsed (train macro-F1 0.248); retrying
+
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 389/389 [00:00<00:00, 9018.36it/s]
+  chrono_1999: seed 43 collapsed (train macro-F1 0.234); retrying
+
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 389/389 [00:00<00:00, 9748.48it/s]
+  chrono_1999: seed 44 collapsed (train macro-F1 0.234); retrying
+Traceback (most recent call last):
+  File "Project3\analysis\04c_transformers.py", line 135, in <module>
+    main()
+    ~~~~^^
+  File "Project3\analysis\04c_transformers.py", line 130, in main
+    run_job(f"chrono_{Y}", train_df, tdw[tdw.year == Y], sent)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "Project3\analysis\04c_transformers.py", line 107, in run_job
+    p = predict(model, tok, eval_df.text.tolist()).argmax(1)
+                ^^^^^
+UnboundLocalError: cannot access local variable 'model' where it is not associated with a value
+[skip] val
+[skip] full
+
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 389/389 [00:00<00:00, 10616.21it/s]
+[done] {"job": "chrono_1999", "seed": 42, "n_train": 224, "steps": 602, "collapsed": false, "train_years": [1996, 1998], "train_macro_f1": 1.0, "eval_n": 104, "eval_accuracy": 0.5865, "eval_macro_f1": 0.5241, "minutes": 3.0}
+
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 389/389 [00:00<00:00, 11135.19it/s]
+[done] {"job": "chrono_2000", "seed": 42, "n_train": 328, "steps": 609, "collapsed": false, "train_years": [1996, 1999], "train_macro_f1": 1.0, "eval_n": 105, "eval_accuracy": 0.6381, "eval_macro_f1": 0.6087, "minutes": 2.86}
+
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 389/389 [00:00<00:00, 8008.64it/s]
+[done] {"job": "chrono_2001", "seed": 42, "n_train": 433, "steps": 616, "collapsed": false, "train_years": [1996, 2000], "train_macro_f1": 1.0, "eval_n": 82, "eval_accuracy": 0.6951, "eval_macro_f1": 0.6642, "minutes": 4.29}
+
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 389/389 [00:00<00:00, 8262.15it/s]
+[done] {"job": "chrono_2002", "seed": 42, "n_train": 515, "steps": 627, "collapsed": false, "train_years": [1996, 2001], "train_macro_f1": 1.0, "eval_n": 65, "eval_accuracy": 0.6154, "eval_macro_f1": 0.6005, "minutes": 3.11}
+
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 389/389 [00:00<00:00, 10591.88it/s]
+[done] {"job": "chrono_2003", "seed": 42, "n_train": 580, "steps": 629, "collapsed": false, "train_years": [1996, 2002], "train_macro_f1": 1.0, "eval_n": 103, "eval_accuracy": 0.6505, "eval_macro_f1": 0.6252, "minutes": 2.38}
+
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 389/389 [00:00<00:00, 10751.72it/s]
+[done] {"job": "chrono_2004", "seed": 42, "n_train": 683, "steps": 602, "collapsed": false, "train_years": [1996, 2003], "train_macro_f1": 0.9965, "eval_n": 145, "eval_accuracy": 0.6966, "eval_macro_f1": 0.6601, "minutes": 1.88}
+
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 389/389 [00:00<00:00, 4812.79it/s]
+[done] {"job": "chrono_2005", "seed": 42, "n_train": 828, "steps": 624, "collapsed": false, "train_years": [1996, 2004], "train_macro_f1": 0.9959, "eval_n": 141, "eval_accuracy": 0.6879, "eval_macro_f1": 0.6493, "minutes": 1.94}
+
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 389/389 [00:00<00:00, 11940.66it/s]
+[done] {"job": "chrono_2006", "seed": 42, "n_train": 969, "steps": 610, "collapsed": false, "train_years": [1996, 2005], "train_macro_f1": 0.9941, "eval_n": 111, "eval_accuracy": 0.7117, "eval_macro_f1": 0.6939, "minutes": 1.93}
+
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 389/389 [00:00<00:00, 10419.40it/s]
+[done] {"job": "chrono_2007", "seed": 42, "n_train": 1080, "steps": 612, "collapsed": false, "train_years": [1996, 2006], "train_macro_f1": 0.9879, "eval_n": 115, "eval_accuracy": 0.6696, "eval_macro_f1": 0.6319, "minutes": 1.99}
+
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 389/389 [00:00<00:00, 4440.18it/s]
+[done] {"job": "chrono_2008", "seed": 42, "n_train": 1195, "steps": 600, "collapsed": false, "train_years": [1996, 2007], "train_macro_f1": 0.9842, "eval_n": 60, "eval_accuracy": 0.7333, "eval_macro_f1": 0.7306, "minutes": 1.94}
+
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 389/389 [00:00<00:00, 10547.92it/s]
+[done] {"job": "chrono_2009", "seed": 42, "n_train": 1255, "steps": 632, "collapsed": false, "train_years": [1996, 2008], "train_macro_f1": 0.9842, "eval_n": 41, "eval_accuracy": 0.6098, "eval_macro_f1": 0.5879, "minutes": 2.01}
+
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 389/389 [00:00<00:00, 9780.10it/s]
+[done] {"job": "chrono_2010", "seed": 42, "n_train": 1296, "steps": 648, "collapsed": false, "train_years": [1996, 2009], "train_macro_f1": 0.9778, "eval_n": 44, "eval_accuracy": 0.7273, "eval_macro_f1": 0.7244, "minutes": 2.12}
+
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]
+Loading weights:  97%|█████████▋| 377/389 [00:00<00:00, 3766.49it/s]
+Loading weights: 100%|██████████| 389/389 [00:00<00:00, 3743.02it/s]
+[done] {"job": "chrono_2011", "seed": 42, "n_train": 1340, "steps": 672, "collapsed": false, "train_years": [1996, 2010], "train_macro_f1": 0.9801, "eval_n": 57, "eval_accuracy": 0.6491, "eval_macro_f1": 0.6456, "minutes": 2.16}
+
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 389/389 [00:00<00:00, 5273.64it/s]
+[done] {"job": "chrono_2012", "seed": 42, "n_train": 1397, "steps": 616, "collapsed": false, "train_years": [1996, 2011], "train_macro_f1": 0.9613, "eval_n": 67, "eval_accuracy": 0.7463, "eval_macro_f1": 0.7442, "minutes": 1.98}
+
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 389/389 [00:00<00:00, 10161.46it/s]
+[done] {"job": "chrono_2013", "seed": 42, "n_train": 1464, "steps": 644, "collapsed": false, "train_years": [1996, 2012], "train_macro_f1": 0.9782, "eval_n": 80, "eval_accuracy": 0.7625, "eval_macro_f1": 0.7525, "minutes": 2.11}
+
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 389/389 [00:00<00:00, 5582.72it/s]
+[done] {"job": "chrono_2014", "seed": 42, "n_train": 1544, "steps": 679, "collapsed": false, "train_years": [1996, 2013], "train_macro_f1": 0.9754, "eval_n": 64, "eval_accuracy": 0.8125, "eval_macro_f1": 0.8107, "minutes": 2.16}
+
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 389/389 [00:00<00:00, 10220.97it/s]
+[done] {"job": "chrono_2015", "seed": 42, "n_train": 1608, "steps": 606, "collapsed": false, "train_years": [1996, 2014], "train_macro_f1": 0.9656, "eval_n": 64, "eval_accuracy": 0.7188, "eval_macro_f1": 0.7039, "minutes": 1.98}
+
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 389/389 [00:00<00:00, 9412.52it/s]
+[done] {"job": "chrono_2016", "seed": 42, "n_train": 1672, "steps": 630, "collapsed": false, "train_years": [1996, 2015], "train_macro_f1": 0.9588, "eval_n": 65, "eval_accuracy": 0.6154, "eval_macro_f1": 0.601, "minutes": 2.05}
+
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 389/389 [00:00<00:00, 10887.46it/s]
+[done] {"job": "chrono_2017", "seed": 42, "n_train": 1737, "steps": 654, "collapsed": false, "train_years": [1996, 2016], "train_macro_f1": 0.9694, "eval_n": 99, "eval_accuracy": 0.697, "eval_macro_f1": 0.6853, "minutes": 2.11}
+
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 389/389 [00:00<00:00, 10949.05it/s]
+[done] {"job": "chrono_2018", "seed": 42, "n_train": 1836, "steps": 690, "collapsed": false, "train_years": [1996, 2017], "train_macro_f1": 0.8164, "eval_n": 62, "eval_accuracy": 0.5968, "eval_macro_f1": 0.5759, "minutes": 2.21}
+
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 389/389 [00:00<00:00, 10808.41it/s]
+[done] {"job": "chrono_2019", "seed": 42, "n_train": 1898, "steps": 714, "collapsed": false, "train_years": [1996, 2018], "train_macro_f1": 0.9726, "eval_n": 116, "eval_accuracy": 0.7328, "eval_macro_f1": 0.7321, "minutes": 2.3}
+
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 389/389 [00:00<00:00, 5568.98it/s]
+[done] {"job": "chrono_2020", "seed": 42, "n_train": 2014, "steps": 630, "collapsed": false, "train_years": [1996, 2019], "train_macro_f1": 0.8478, "eval_n": 158, "eval_accuracy": 0.6646, "eval_macro_f1": 0.6321, "minutes": 2.11}
+
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 389/389 [00:00<00:00, 9126.88it/s]
+[done] {"job": "chrono_2021", "seed": 42, "n_train": 2172, "steps": 680, "collapsed": false, "train_years": [1996, 2020], "train_macro_f1": 0.9461, "eval_n": 170, "eval_accuracy": 0.7176, "eval_macro_f1": 0.6794, "minutes": 2.31}
+
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 389/389 [00:00<00:00, 6181.65it/s]
+[done] {"job": "chrono_2022", "seed": 42, "n_train": 2342, "steps": 735, "collapsed": false, "train_years": [1996, 2021], "train_macro_f1": 0.9444, "eval_n": 138, "eval_accuracy": 0.7681, "eval_macro_f1": 0.7343, "minutes": 2.59}
+
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 389/389 [00:00<00:00, 9834.39it/s]
+[done] {"job": "chrono_2023", "seed": 42, "n_train": 2480, "steps": 775, "collapsed": false, "train_years": [1996, 2022], "train_macro_f1": 0.9459, "minutes": 2.52}
+all jobs finished

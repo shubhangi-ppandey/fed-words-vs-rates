@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.DS_Store
+# raw statement HTML (15 MB) is re-created by analysis/01; verified via data/raw_manifest.json
+data/raw/statements_html/
+# fine-tuned / downloaded model checkpoints (hundreds of MB each)
+models_cache/
+
+# Papers are written in the final paper phase (user decision 2026-10-16); local drafts stay out of the repo until then
+reports/research_paper.*
+reports/executive_summary.md
+
+# Not redistributed (no licence / third-party copyright). analysis/02_fetch_market.py re-downloads them;
+# data/raw_manifest.json records their SHA-256 hashes.
+data/raw/market/jk_*.csv
+data/raw/market/bauer_swanson.xlsx
+data/raw/market/fred_VIXCLS.csv
+data/raw/market/kf_*.csv

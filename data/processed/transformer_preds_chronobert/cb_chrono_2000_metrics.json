@@ -1,0 +1,16 @@
+{
+  "job": "cb_chrono_2000",
+  "seed": 42,
+  "n_train": 328,
+  "steps": 609,
+  "collapsed": false,
+  "train_years": [
+    1996,
+    1999
+  ],
+  "train_macro_f1": 1.0,
+  "eval_n": 105,
+  "eval_accuracy": 0.4952,
+  "eval_macro_f1": 0.358,
+  "minutes": 0.98
+}

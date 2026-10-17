@@ -1,0 +1,53 @@
+{
+  "primary_measure": "M3",
+  "a_novelty_abs_response": {
+    "n": 189,
+    "beta": 0.6267838033273683,
+    "se_hc3": 0.2948952797423653,
+    "p_wild": 0.1179
+  },
+  "b_placebo_non_fomc_days": {
+    "actual_daily_beta_no_mp1": {
+      "n": 189,
+      "beta": 1.3162040637554244,
+      "se_hc3": 0.43423521403250154,
+      "p_wild": 0.0027
+    },
+    "n_placebo_draws": 2000,
+    "placebo_pool_days": 3736,
+    "placebo_beta_mean": -0.002011604257382531,
+    "placebo_beta_sd": 0.35704123156758827,
+    "share_placebo_abs_ge_actual": 0.0005
+  },
+  "c_extended_1994_2022": {
+    "n_added_pre_1999": 11,
+    "M3": {
+      "n": 200,
+      "beta": 1.0259187168473816,
+      "se_hc3": 0.3417455401038758,
+      "p_wild": 0.001
+    },
+    "M1": {
+      "n": 200,
+      "beta": 0.1365140295497915,
+      "se_hc3": 0.2992348304044003,
+      "p_wild": 0.3185
+    },
+    "note": "M3 for 1994-1998 statements uses the 1999 model (labels 1996-1998): partial look-ahead"
+  },
+  "d_H5_cbi_interaction": {
+    "n_cbi_meetings": 63,
+    "interaction": {
+      "n": 189,
+      "beta": 0.22075032159551744,
+      "se_hc3": 0.09114633139187195,
+      "p_wild": 0.0318
+    },
+    "z_in_monetary_meetings": {
+      "n": 189,
+      "beta": -0.05617775691294382,
+      "se_hc3": 0.041039890955137416,
+      "p_wild": 0.1722
+    }
+  }
+}

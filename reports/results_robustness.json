@@ -1,0 +1,193 @@
+{
+  "primary_measure": "M3",
+  "checks": [
+    {
+      "check": "1 baseline",
+      "n": 189,
+      "beta": 1.040760769095022,
+      "se_hc3": 0.382546095854257,
+      "p_wild_greater": 0.0044
+    },
+    {
+      "check": "2 excl. 2008-09",
+      "n": 173,
+      "beta": 1.2472700303357713,
+      "se_hc3": 0.3970094106459645,
+      "p_wild_greater": 0.0006
+    },
+    {
+      "check": "3 probability-weighted tone",
+      "n": 189,
+      "beta": 1.1020787621942076,
+      "se_hc3": 0.3902147821061693,
+      "p_wild_greater": 0.0036
+    },
+    {
+      "check": "4 no boilerplate filter",
+      "n": 189,
+      "beta": 0.9790427851393848,
+      "se_hc3": 0.3863969727955124,
+      "p_wild_greater": 0.0052
+    },
+    {
+      "check": "5 AR(1)-residual surprise",
+      "n": 168,
+      "beta": 0.9111470645248305,
+      "se_hc3": 0.41943943120228494,
+      "p_wild_greater": 0.015
+    },
+    {
+      "check": "6 daily window (FRED 2y)",
+      "n": 189,
+      "beta": 1.1746146534639332,
+      "se_hc3": 0.4824557158580128,
+      "p_wild_greater": 0.0072
+    },
+    {
+      "check": "7 daily window, no press conference",
+      "n": 126,
+      "beta": 1.0251867866984372,
+      "se_hc3": 0.5438476365552919,
+      "p_wild_greater": 0.0306
+    },
+    {
+      "check": "8 JK MP/CBI controls",
+      "n": 189,
+      "beta": 0.1409252992187954,
+      "se_hc3": 0.21837853289209838,
+      "p_wild_greater": 0.2534
+    },
+    {
+      "check": "9 Bauer-Swanson MPS_ORTH control",
+      "n": 183,
+      "beta": 0.7294556771692774,
+      "se_hc3": 0.238951409467865,
+      "p_wild_greater": 0.0018
+    },
+    {
+      "check": "10 GSS target-factor control",
+      "n": 189,
+      "beta": 1.0672376443405944,
+      "se_hc3": 0.3714668588345789,
+      "p_wild_greater": 0.0024
+    },
+    {
+      "check": "11 + 12 unscheduled statements",
+      "n": 200,
+      "beta": 0.8067995363566997,
+      "se_hc3": 0.3606263922088546,
+      "p_wild_greater": 0.0114
+    },
+    {
+      "check": "13 drop first meeting (1999-05-18, 6-month gap)",
+      "n": 188,
+      "beta": 0.8823312107696035,
+      "se_hc3": 0.3633899108310537,
+      "p_wild_greater": 0.0074
+    }
+  ],
+  "leave_one_year_out": {
+    "min": 0.7691102939415242,
+    "max": 1.2609206358816352,
+    "by_year": [
+      {
+        "dropped_year": 1999,
+        "beta": 0.7691102939415242
+      },
+      {
+        "dropped_year": 2000,
+        "beta": 1.1082608918119994
+      },
+      {
+        "dropped_year": 2001,
+        "beta": 1.011097929989361
+      },
+      {
+        "dropped_year": 2002,
+        "beta": 1.2264142177644226
+      },
+      {
+        "dropped_year": 2003,
+        "beta": 1.0023785187112213
+      },
+      {
+        "dropped_year": 2004,
+        "beta": 1.1349231167780518
+      },
+      {
+        "dropped_year": 2005,
+        "beta": 1.0001123155516014
+      },
+      {
+        "dropped_year": 2006,
+        "beta": 1.040015559376026
+      },
+      {
+        "dropped_year": 2007,
+        "beta": 0.9750128955198907
+      },
+      {
+        "dropped_year": 2008,
+        "beta": 1.2609206358816352
+      },
+      {
+        "dropped_year": 2009,
+        "beta": 1.0256404101030003
+      },
+      {
+        "dropped_year": 2010,
+        "beta": 1.0455447232847477
+      },
+      {
+        "dropped_year": 2011,
+        "beta": 1.049936921941093
+      },
+      {
+        "dropped_year": 2012,
+        "beta": 1.1053248646159541
+      },
+      {
+        "dropped_year": 2013,
+        "beta": 1.0554143799202969
+      },
+      {
+        "dropped_year": 2014,
+        "beta": 1.016820257327178
+      },
+      {
+        "dropped_year": 2015,
+        "beta": 1.0710489328949695
+      },
+      {
+        "dropped_year": 2016,
+        "beta": 1.0351354787758815
+      },
+      {
+        "dropped_year": 2017,
+        "beta": 1.0508970214458404
+      },
+      {
+        "dropped_year": 2018,
+        "beta": 1.0401244173534399
+      },
+      {
+        "dropped_year": 2019,
+        "beta": 0.979855561997439
+      },
+      {
+        "dropped_year": 2020,
+        "beta": 1.0848649960476664
+      },
+      {
+        "dropped_year": 2021,
+        "beta": 1.0395904679167842
+      },
+      {
+        "dropped_year": 2022,
+        "beta": 0.9119181250656445
+      }
+    ]
+  },
+  "n_press_conference_dates": 94,
+  "baseline_freedman_lane_p_greater": 0.0035
+}

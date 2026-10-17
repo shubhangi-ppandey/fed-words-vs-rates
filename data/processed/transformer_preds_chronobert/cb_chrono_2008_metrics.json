@@ -1,0 +1,16 @@
+{
+  "job": "cb_chrono_2008",
+  "seed": 42,
+  "n_train": 1195,
+  "steps": 600,
+  "collapsed": false,
+  "train_years": [
+    1996,
+    2007
+  ],
+  "train_macro_f1": 0.9966,
+  "eval_n": 60,
+  "eval_accuracy": 0.6,
+  "eval_macro_f1": 0.5911,
+  "minutes": 1.02
+}

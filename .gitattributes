@@ -1,0 +1,2 @@
+# Keep data byte-identical to the SHA-256 hashes in data/raw_manifest.json on every platform
+data/** -text

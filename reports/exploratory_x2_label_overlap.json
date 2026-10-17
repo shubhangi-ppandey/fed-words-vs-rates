@@ -1,0 +1,9 @@
+{
+  "kept_sentences": 2977,
+  "verbatim_in_labels": 369,
+  "share": 0.12395028552233793,
+  "label_year_same_or_later_than_statement": 58,
+  "label_year_earlier_only": 311,
+  "in_estimation_sample_statements": 340,
+  "same_or_later_in_estimation_sample": 58
+}

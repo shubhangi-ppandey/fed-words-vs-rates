@@ -1,0 +1,101 @@
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 4819.81it/s]
+[done] {"job": "full", "seed": 43, "n_train": 2480, "steps": 775, "collapsed": false, "train_years": [1996, 2022], "train_macro_f1": 0.9459, "minutes": 2.26}
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 7027.18it/s]
+[done] {"job": "chrono_1999", "seed": 43, "n_train": 224, "steps": 602, "collapsed": false, "train_years": [1996, 1998], "train_macro_f1": 1.0, "eval_n": 104, "eval_accuracy": 0.5865, "eval_macro_f1": 0.5268, "minutes": 1.8}
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 10276.60it/s]
+[done] {"job": "chrono_2000", "seed": 43, "n_train": 328, "steps": 609, "collapsed": false, "train_years": [1996, 1999], "train_macro_f1": 1.0, "eval_n": 105, "eval_accuracy": 0.6095, "eval_macro_f1": 0.569, "minutes": 1.83}
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 10019.68it/s]
+[done] {"job": "chrono_2001", "seed": 43, "n_train": 433, "steps": 616, "collapsed": false, "train_years": [1996, 2000], "train_macro_f1": 1.0, "eval_n": 82, "eval_accuracy": 0.7073, "eval_macro_f1": 0.6779, "minutes": 1.86}
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 10013.04it/s]
+[done] {"job": "chrono_2002", "seed": 43, "n_train": 515, "steps": 627, "collapsed": false, "train_years": [1996, 2001], "train_macro_f1": 1.0, "eval_n": 65, "eval_accuracy": 0.6, "eval_macro_f1": 0.5823, "minutes": 1.93}
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 10915.07it/s]
+[done] {"job": "chrono_2003", "seed": 43, "n_train": 580, "steps": 629, "collapsed": false, "train_years": [1996, 2002], "train_macro_f1": 1.0, "eval_n": 103, "eval_accuracy": 0.7767, "eval_macro_f1": 0.7672, "minutes": 1.91}
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 10528.32it/s]
+[done] {"job": "chrono_2004", "seed": 43, "n_train": 683, "steps": 602, "collapsed": false, "train_years": [1996, 2003], "train_macro_f1": 0.9985, "eval_n": 145, "eval_accuracy": 0.7448, "eval_macro_f1": 0.7175, "minutes": 1.84}
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 10664.86it/s]
+[done] {"job": "chrono_2005", "seed": 43, "n_train": 828, "steps": 624, "collapsed": false, "train_years": [1996, 2004], "train_macro_f1": 0.9972, "eval_n": 141, "eval_accuracy": 0.6312, "eval_macro_f1": 0.5967, "minutes": 1.92}
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 12483.33it/s]
+[done] {"job": "chrono_2006", "seed": 43, "n_train": 969, "steps": 610, "collapsed": false, "train_years": [1996, 2005], "train_macro_f1": 0.9917, "eval_n": 111, "eval_accuracy": 0.7117, "eval_macro_f1": 0.7036, "minutes": 1.91}
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 12025.50it/s]
+[done] {"job": "chrono_2007", "seed": 43, "n_train": 1080, "steps": 612, "collapsed": false, "train_years": [1996, 2006], "train_macro_f1": 0.9873, "eval_n": 115, "eval_accuracy": 0.7565, "eval_macro_f1": 0.7297, "minutes": 1.96}
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 9573.11it/s]
+[done] {"job": "chrono_2008", "seed": 43, "n_train": 1195, "steps": 600, "collapsed": false, "train_years": [1996, 2007], "train_macro_f1": 0.9836, "eval_n": 60, "eval_accuracy": 0.7167, "eval_macro_f1": 0.716, "minutes": 1.96}
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 10424.26it/s]
+[done] {"job": "chrono_2009", "seed": 43, "n_train": 1255, "steps": 632, "collapsed": false, "train_years": [1996, 2008], "train_macro_f1": 0.9676, "eval_n": 41, "eval_accuracy": 0.6341, "eval_macro_f1": 0.609, "minutes": 1.99}
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 10426.99it/s]
+[done] {"job": "chrono_2010", "seed": 43, "n_train": 1296, "steps": 648, "collapsed": false, "train_years": [1996, 2009], "train_macro_f1": 0.9865, "eval_n": 44, "eval_accuracy": 0.6591, "eval_macro_f1": 0.6559, "minutes": 2.15}
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 9662.69it/s]
+[done] {"job": "chrono_2011", "seed": 43, "n_train": 1340, "steps": 672, "collapsed": false, "train_years": [1996, 2010], "train_macro_f1": 0.9745, "eval_n": 57, "eval_accuracy": 0.5965, "eval_macro_f1": 0.6006, "minutes": 2.25}
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 8008.44it/s]
+[done] {"job": "chrono_2012", "seed": 43, "n_train": 1397, "steps": 616, "collapsed": false, "train_years": [1996, 2011], "train_macro_f1": 0.9639, "eval_n": 67, "eval_accuracy": 0.7612, "eval_macro_f1": 0.7509, "minutes": 2.13}
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 10733.33it/s]
+[done] {"job": "chrono_2013", "seed": 43, "n_train": 1464, "steps": 644, "collapsed": false, "train_years": [1996, 2012], "train_macro_f1": 0.9767, "eval_n": 80, "eval_accuracy": 0.7125, "eval_macro_f1": 0.7075, "minutes": 2.32}
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 7512.97it/s]
+[done] {"job": "chrono_2014", "seed": 43, "n_train": 1544, "steps": 679, "collapsed": false, "train_years": [1996, 2013], "train_macro_f1": 0.9777, "eval_n": 64, "eval_accuracy": 0.7812, "eval_macro_f1": 0.7743, "minutes": 2.53}
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 7967.73it/s]
+[done] {"job": "chrono_2015", "seed": 43, "n_train": 1608, "steps": 606, "collapsed": false, "train_years": [1996, 2014], "train_macro_f1": 0.9465, "eval_n": 64, "eval_accuracy": 0.75, "eval_macro_f1": 0.7448, "minutes": 2.19}
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 7687.63it/s]
+[done] {"job": "chrono_2016", "seed": 43, "n_train": 1672, "steps": 630, "collapsed": false, "train_years": [1996, 2015], "train_macro_f1": 0.9491, "eval_n": 65, "eval_accuracy": 0.6154, "eval_macro_f1": 0.6068, "minutes": 2.29}
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 5146.71it/s]
+[done] {"job": "chrono_2017", "seed": 43, "n_train": 1737, "steps": 654, "collapsed": false, "train_years": [1996, 2016], "train_macro_f1": 0.9473, "eval_n": 99, "eval_accuracy": 0.7071, "eval_macro_f1": 0.7003, "minutes": 2.31}
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 8702.94it/s]
+[done] {"job": "chrono_2018", "seed": 43, "n_train": 1836, "steps": 690, "collapsed": false, "train_years": [1996, 2017], "train_macro_f1": 0.9367, "eval_n": 62, "eval_accuracy": 0.6935, "eval_macro_f1": 0.66, "minutes": 2.52}
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 9705.34it/s]
+[done] {"job": "chrono_2019", "seed": 43, "n_train": 1898, "steps": 714, "collapsed": false, "train_years": [1996, 2018], "train_macro_f1": 0.9521, "eval_n": 116, "eval_accuracy": 0.6897, "eval_macro_f1": 0.6851, "minutes": 2.51}
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 9645.95it/s]
+[done] {"job": "chrono_2020", "seed": 43, "n_train": 2014, "steps": 630, "collapsed": false, "train_years": [1996, 2019], "train_macro_f1": 0.9473, "eval_n": 158, "eval_accuracy": 0.7025, "eval_macro_f1": 0.6793, "minutes": 2.25}
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 7747.39it/s]
+[done] {"job": "chrono_2021", "seed": 43, "n_train": 2172, "steps": 680, "collapsed": false, "train_years": [1996, 2020], "train_macro_f1": 0.9264, "eval_n": 170, "eval_accuracy": 0.7412, "eval_macro_f1": 0.7143, "minutes": 2.37}
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 4492.64it/s]
+[done] {"job": "chrono_2022", "seed": 43, "n_train": 2342, "steps": 735, "collapsed": false, "train_years": [1996, 2021], "train_macro_f1": 0.9235, "eval_n": 138, "eval_accuracy": 0.7536, "eval_macro_f1": 0.7229, "minutes": 2.5}
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 10566.57it/s]
+[done] {"job": "full", "seed": 44, "n_train": 2480, "steps": 775, "collapsed": false, "train_years": [1996, 2022], "train_macro_f1": 0.9413, "minutes": 2.59}
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights:  82%|████████▏ | 318/389 [00:00<00:00, 3157.88it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 3217.68it/s]
+[done] {"job": "chrono_1999", "seed": 44, "n_train": 224, "steps": 602, "collapsed": false, "train_years": [1996, 1998], "train_macro_f1": 1.0, "eval_n": 104, "eval_accuracy": 0.5577, "eval_macro_f1": 0.504, "minutes": 1.97}
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 8242.70it/s]
+[done] {"job": "chrono_2000", "seed": 44, "n_train": 328, "steps": 609, "collapsed": false, "train_years": [1996, 1999], "train_macro_f1": 1.0, "eval_n": 105, "eval_accuracy": 0.6095, "eval_macro_f1": 0.5708, "minutes": 1.98}
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 10508.93it/s]
+[done] {"job": "chrono_2001", "seed": 44, "n_train": 433, "steps": 616, "collapsed": false, "train_years": [1996, 2000], "train_macro_f1": 1.0, "eval_n": 82, "eval_accuracy": 0.6707, "eval_macro_f1": 0.6317, "minutes": 1.91}
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 7214.13it/s]
+[done] {"job": "chrono_2002", "seed": 44, "n_train": 515, "steps": 627, "collapsed": false, "train_years": [1996, 2001], "train_macro_f1": 1.0, "eval_n": 65, "eval_accuracy": 0.6, "eval_macro_f1": 0.5907, "minutes": 1.92}
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 9350.96it/s]
+[done] {"job": "chrono_2003", "seed": 44, "n_train": 580, "steps": 629, "collapsed": false, "train_years": [1996, 2002], "train_macro_f1": 1.0, "eval_n": 103, "eval_accuracy": 0.6214, "eval_macro_f1": 0.607, "minutes": 1.93}
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 9735.05it/s]
+[done] {"job": "chrono_2004", "seed": 44, "n_train": 683, "steps": 602, "collapsed": false, "train_years": [1996, 2003], "train_macro_f1": 0.9985, "eval_n": 145, "eval_accuracy": 0.7793, "eval_macro_f1": 0.7674, "minutes": 1.85}
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 11242.61it/s]
+[done] {"job": "chrono_2005", "seed": 44, "n_train": 828, "steps": 624, "collapsed": false, "train_years": [1996, 2004], "train_macro_f1": 0.9972, "eval_n": 141, "eval_accuracy": 0.6596, "eval_macro_f1": 0.6187, "minutes": 1.93}
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 10869.19it/s]
+[done] {"job": "chrono_2006", "seed": 44, "n_train": 969, "steps": 610, "collapsed": false, "train_years": [1996, 2005], "train_macro_f1": 0.9941, "eval_n": 111, "eval_accuracy": 0.6937, "eval_macro_f1": 0.6862, "minutes": 1.92}
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 11031.30it/s]
+[done] {"job": "chrono_2007", "seed": 44, "n_train": 1080, "steps": 612, "collapsed": false, "train_years": [1996, 2006], "train_macro_f1": 0.9916, "eval_n": 115, "eval_accuracy": 0.7304, "eval_macro_f1": 0.7001, "minutes": 1.94}
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 10027.01it/s]
+[done] {"job": "chrono_2008", "seed": 44, "n_train": 1195, "steps": 600, "collapsed": false, "train_years": [1996, 2007], "train_macro_f1": 0.987, "eval_n": 60, "eval_accuracy": 0.7, "eval_macro_f1": 0.6976, "minutes": 1.93}
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 4913.95it/s]
+[done] {"job": "chrono_2009", "seed": 44, "n_train": 1255, "steps": 632, "collapsed": false, "train_years": [1996, 2008], "train_macro_f1": 0.9842, "eval_n": 41, "eval_accuracy": 0.7073, "eval_macro_f1": 0.6812, "minutes": 2.04}
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 10890.08it/s]
+[done] {"job": "chrono_2010", "seed": 44, "n_train": 1296, "steps": 648, "collapsed": false, "train_years": [1996, 2009], "train_macro_f1": 0.9847, "eval_n": 44, "eval_accuracy": 0.7273, "eval_macro_f1": 0.728, "minutes": 2.11}
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 6673.83it/s]
+[done] {"job": "chrono_2011", "seed": 44, "n_train": 1340, "steps": 672, "collapsed": false, "train_years": [1996, 2010], "train_macro_f1": 0.9793, "eval_n": 57, "eval_accuracy": 0.5789, "eval_macro_f1": 0.575, "minutes": 2.17}
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 9414.20it/s]
+[done] {"job": "chrono_2012", "seed": 44, "n_train": 1397, "steps": 616, "collapsed": false, "train_years": [1996, 2011], "train_macro_f1": 0.9643, "eval_n": 67, "eval_accuracy": 0.7164, "eval_macro_f1": 0.6921, "minutes": 2.05}
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights:  75%|███████▍  | 291/389 [00:00<00:00, 2884.21it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 2768.46it/s]
+[done] {"job": "chrono_2013", "seed": 44, "n_train": 1464, "steps": 644, "collapsed": false, "train_years": [1996, 2012], "train_macro_f1": 0.9602, "eval_n": 80, "eval_accuracy": 0.775, "eval_macro_f1": 0.7677, "minutes": 2.13}
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 13007.72it/s]
+[done] {"job": "chrono_2014", "seed": 44, "n_train": 1544, "steps": 679, "collapsed": false, "train_years": [1996, 2013], "train_macro_f1": 0.97, "eval_n": 64, "eval_accuracy": 0.7656, "eval_macro_f1": 0.7583, "minutes": 2.21}
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 11811.95it/s]
+[done] {"job": "chrono_2015", "seed": 44, "n_train": 1608, "steps": 606, "collapsed": false, "train_years": [1996, 2014], "train_macro_f1": 0.9699, "eval_n": 64, "eval_accuracy": 0.7344, "eval_macro_f1": 0.7292, "minutes": 1.99}
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 12370.89it/s]
+[done] {"job": "chrono_2016", "seed": 44, "n_train": 1672, "steps": 630, "collapsed": false, "train_years": [1996, 2015], "train_macro_f1": 0.9661, "eval_n": 65, "eval_accuracy": 0.6154, "eval_macro_f1": 0.6134, "minutes": 2.12}
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 4431.29it/s]
+[done] {"job": "chrono_2017", "seed": 44, "n_train": 1737, "steps": 654, "collapsed": false, "train_years": [1996, 2016], "train_macro_f1": 0.9647, "eval_n": 99, "eval_accuracy": 0.6667, "eval_macro_f1": 0.6564, "minutes": 2.18}
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 10392.12it/s]
+[done] {"job": "chrono_2018", "seed": 44, "n_train": 1836, "steps": 690, "collapsed": false, "train_years": [1996, 2017], "train_macro_f1": 0.9653, "eval_n": 62, "eval_accuracy": 0.6774, "eval_macro_f1": 0.6602, "minutes": 2.28}
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 7446.01it/s]
+[done] {"job": "chrono_2019", "seed": 44, "n_train": 1898, "steps": 714, "collapsed": false, "train_years": [1996, 2018], "train_macro_f1": 0.9595, "eval_n": 116, "eval_accuracy": 0.6983, "eval_macro_f1": 0.6876, "minutes": 2.34}
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 8551.06it/s]
+[done] {"job": "chrono_2020", "seed": 44, "n_train": 2014, "steps": 630, "collapsed": false, "train_years": [1996, 2019], "train_macro_f1": 0.9264, "eval_n": 158, "eval_accuracy": 0.7152, "eval_macro_f1": 0.6904, "minutes": 2.11}
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 13394.61it/s]
+[done] {"job": "chrono_2021", "seed": 44, "n_train": 2172, "steps": 680, "collapsed": false, "train_years": [1996, 2020], "train_macro_f1": 0.936, "eval_n": 170, "eval_accuracy": 0.7412, "eval_macro_f1": 0.7086, "minutes": 2.22}
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 11086.39it/s]
+[done] {"job": "chrono_2022", "seed": 44, "n_train": 2342, "steps": 735, "collapsed": false, "train_years": [1996, 2021], "train_macro_f1": 0.9437, "eval_n": 138, "eval_accuracy": 0.7391, "eval_macro_f1": 0.7, "minutes": 2.4}
+seed robustness jobs finished

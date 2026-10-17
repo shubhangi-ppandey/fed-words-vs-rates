@@ -1,0 +1,178 @@
+{
+  "pairs": [
+    {
+      "architecture": "RoBERTa-large",
+      "outcome": "hf_TFUT02",
+      "look_ahead": "M2",
+      "safe": "M3",
+      "n": 189,
+      "beta_look_ahead": 0.6459451496484785,
+      "beta_safe": 1.0407607690950216,
+      "diff_in_hypothesised_direction": -0.3948156194465431,
+      "ci95": [
+        -1.2019097582179488,
+        0.24169820412135562
+      ],
+      "p_two_sided": 0.23102310231023102
+    },
+    {
+      "architecture": "RoBERTa-large",
+      "outcome": "gss_path",
+      "look_ahead": "M2",
+      "safe": "M3",
+      "n": 189,
+      "beta_look_ahead": 0.965535655837688,
+      "beta_safe": 1.1096091665236787,
+      "diff_in_hypothesised_direction": -0.14407351068599072,
+      "ci95": [
+        -1.0888262882243165,
+        0.594343307265016
+      ],
+      "p_two_sided": 0.6856685668566856
+    },
+    {
+      "architecture": "RoBERTa-large",
+      "outcome": "hf_SP500",
+      "look_ahead": "M2",
+      "safe": "M3",
+      "n": 189,
+      "beta_look_ahead": 0.04186532171775729,
+      "beta_safe": 0.033889058748118955,
+      "diff_in_hypothesised_direction": -0.007976262969638333,
+      "ci95": [
+        -0.07763250558923386,
+        0.06484759961012505
+      ],
+      "p_two_sided": 0.8238823882388239
+    },
+    {
+      "architecture": "TF-IDF",
+      "outcome": "hf_TFUT02",
+      "look_ahead": "M2b",
+      "safe": "M3b",
+      "n": 189,
+      "beta_look_ahead": 0.38055610433109804,
+      "beta_safe": -0.1676467991019447,
+      "diff_in_hypothesised_direction": 0.5482029034330427,
+      "ci95": [
+        -0.1577745057173858,
+        1.3180063841931688
+      ],
+      "p_two_sided": 0.13001300130013002
+    },
+    {
+      "architecture": "TF-IDF",
+      "outcome": "gss_path",
+      "look_ahead": "M2b",
+      "safe": "M3b",
+      "n": 189,
+      "beta_look_ahead": 0.4276187165339696,
+      "beta_safe": -0.05524762958664384,
+      "diff_in_hypothesised_direction": 0.4828663461206134,
+      "ci95": [
+        -0.3682061160493106,
+        1.384819980930735
+      ],
+      "p_two_sided": 0.2812281228122812
+    },
+    {
+      "architecture": "TF-IDF",
+      "outcome": "hf_SP500",
+      "look_ahead": "M2b",
+      "safe": "M3b",
+      "n": 189,
+      "beta_look_ahead": 0.04529819161076852,
+      "beta_safe": 0.03324436501109581,
+      "diff_in_hypothesised_direction": -0.012053826599672711,
+      "ci95": [
+        -0.09294744689504178,
+        0.06527380673967312
+      ],
+      "p_two_sided": 0.7430743074307431
+    }
+  ],
+  "measure_similarity": {
+    "RoBERTa-large": {
+      "pearson": 0.7019923155683572,
+      "sign_agreement": 0.6931216931216931
+    },
+    "TF-IDF": {
+      "pearson": 0.49210094897742185,
+      "sign_agreement": 0.5714285714285714
+    }
+  },
+  "original_plan_H3": {
+    "contrast": "plan H3: RoBERTa full sample (M2) - TF-IDF chronological (M3b)",
+    "a": "M2",
+    "b": "M3b",
+    "diff": 0.8135919487504232,
+    "ci95": [
+      -0.043270148774556774,
+      1.6486055023666577
+    ],
+    "p_two_sided": 0.066006600660066,
+    "p_greater": 0.033003300330033
+  },
+  "measurement_contrasts": [
+    {
+      "contrast": "M3 - M3b",
+      "a": "M3",
+      "b": "M3b",
+      "diff": 1.2084075681969662,
+      "ci95": [
+        0.40922184127962635,
+        2.0885920609987187
+      ],
+      "p_two_sided": 0.002000200020002,
+      "p_greater": 0.001000100010001
+    },
+    {
+      "contrast": "M3 - M1",
+      "a": "M3",
+      "b": "M1",
+      "diff": 0.9459224469966261,
+      "ci95": [
+        0.2666167581510569,
+        1.7514138107237862
+      ],
+      "p_two_sided": 0.005200520052005201,
+      "p_greater": 0.0026002600260026003
+    },
+    {
+      "contrast": "M3 - M2b",
+      "a": "M3",
+      "b": "M2b",
+      "diff": 0.6602046647639235,
+      "ci95": [
+        0.0481054123504075,
+        1.354067961675919
+      ],
+      "p_two_sided": 0.034603460346034606,
+      "p_greater": 0.017301730173017303
+    },
+    {
+      "contrast": "M2 - M1",
+      "a": "M2",
+      "b": "M1",
+      "diff": 0.551106827550083,
+      "ci95": [
+        -0.1245475498031484,
+        1.202707877844975
+      ],
+      "p_two_sided": 0.1076107610761076,
+      "p_greater": 0.0538053805380538
+    },
+    {
+      "contrast": "M2 - M2b",
+      "a": "M2",
+      "b": "M2b",
+      "diff": 0.26538904531738045,
+      "ci95": [
+        -0.5088798126319957,
+        0.9984674326405325
+      ],
+      "p_two_sided": 0.5000500050005,
+      "p_greater": 0.25002500250025
+    }
+  ]
+}

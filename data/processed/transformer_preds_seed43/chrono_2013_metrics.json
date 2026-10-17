@@ -1,0 +1,16 @@
+{
+  "job": "chrono_2013",
+  "seed": 43,
+  "n_train": 1464,
+  "steps": 644,
+  "collapsed": false,
+  "train_years": [
+    1996,
+    2012
+  ],
+  "train_macro_f1": 0.9767,
+  "eval_n": 80,
+  "eval_accuracy": 0.7125,
+  "eval_macro_f1": 0.7075,
+  "minutes": 2.32
+}

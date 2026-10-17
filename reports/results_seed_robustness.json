@@ -1,0 +1,84 @@
+{
+  "rows": [
+    {
+      "variant": "seed 42",
+      "measure": "M2",
+      "n": 189,
+      "beta": 0.6459451496484776,
+      "se_hc3": 0.4253129823160509,
+      "p_wild_greater": 0.072,
+      "corr_with_seed42_S": 1.0
+    },
+    {
+      "variant": "seed 42",
+      "measure": "M3",
+      "n": 189,
+      "beta": 1.0407607690950222,
+      "se_hc3": 0.38254609585425714,
+      "p_wild_greater": 0.0042,
+      "corr_with_seed42_S": 0.9999999999999999
+    },
+    {
+      "variant": "seed 43",
+      "measure": "M2",
+      "n": 189,
+      "beta": 0.6280892644265631,
+      "se_hc3": 0.3878586808627339,
+      "p_wild_greater": 0.0644,
+      "corr_with_seed42_S": 0.8158377728367651
+    },
+    {
+      "variant": "seed 43",
+      "measure": "M3",
+      "n": 189,
+      "beta": 0.9431086049367425,
+      "se_hc3": 0.37371131251272255,
+      "p_wild_greater": 0.0074,
+      "corr_with_seed42_S": 0.596976368852707
+    },
+    {
+      "variant": "seed 44",
+      "measure": "M2",
+      "n": 189,
+      "beta": 0.826752160662184,
+      "se_hc3": 0.4383540193862126,
+      "p_wild_greater": 0.044,
+      "corr_with_seed42_S": 0.8642454256170331
+    },
+    {
+      "variant": "seed 44",
+      "measure": "M3",
+      "n": 189,
+      "beta": 0.3935579654702292,
+      "se_hc3": 0.3285238404666928,
+      "p_wild_greater": 0.1104,
+      "corr_with_seed42_S": 0.6128457076168792
+    },
+    {
+      "variant": "seed-averaged",
+      "measure": "M2",
+      "n": 189,
+      "beta": 0.8470439424326549,
+      "se_hc3": 0.39349570016088475,
+      "p_wild_greater": 0.024,
+      "corr_with_seed42_S": 0.8981420104957578
+    },
+    {
+      "variant": "seed-averaged",
+      "measure": "M3",
+      "n": 189,
+      "beta": 0.8629757315308292,
+      "se_hc3": 0.3347069744635064,
+      "p_wild_greater": 0.0049,
+      "corr_with_seed42_S": 0.7713990196050313
+    }
+  ],
+  "M2_beta_range_across_seeds": [
+    0.6280892644265631,
+    0.826752160662184
+  ],
+  "M3_beta_range_across_seeds": [
+    0.3935579654702292,
+    1.0407607690950222
+  ]
+}

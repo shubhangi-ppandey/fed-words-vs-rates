@@ -1,0 +1,15 @@
+# ORBIT theme (see ../DESIGN_SYSTEM.md in the portfolio workspace): black canvas, off-white ink, one accent.
+[theme]
+base = "dark"
+primaryColor = "#3E6AE1"
+backgroundColor = "#000000"
+secondaryBackgroundColor = "#0B0C0E"
+textColor = "#F0F0FA"
+font = "sans serif"
+
+[client]
+toolbarMode = "minimal"
+
+[server]
+headless = true
+enableStaticServing = true

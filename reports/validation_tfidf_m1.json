@@ -1,0 +1,208 @@
+{
+  "M1_dictionary": {
+    "test_split": {
+      "n": 496,
+      "accuracy": 0.5665,
+      "macro_f1": 0.5312,
+      "macro_f1_ci95": [
+        0.4837,
+        0.579
+      ],
+      "f1_by_class": {
+        "dovish": 0.4425,
+        "hawkish": 0.5089,
+        "neutral": 0.6421
+      }
+    },
+    "all_labels": {
+      "n": 2480,
+      "accuracy": 0.5762,
+      "macro_f1": 0.5355,
+      "macro_f1_ci95": [
+        0.5143,
+        0.5571
+      ],
+      "f1_by_class": {
+        "dovish": 0.4474,
+        "hawkish": 0.4977,
+        "neutral": 0.6613
+      }
+    }
+  },
+  "TFIDF_test_split": {
+    "n": 496,
+    "accuracy": 0.6089,
+    "macro_f1": 0.5255,
+    "macro_f1_ci95": [
+      0.474,
+      0.577
+    ],
+    "f1_by_class": {
+      "dovish": 0.4356,
+      "hawkish": 0.4294,
+      "neutral": 0.7113
+    }
+  },
+  "M3b_chrono_out_of_time": {
+    "pooled": {
+      "n": 2256,
+      "accuracy": 0.5563,
+      "macro_f1": 0.431,
+      "macro_f1_ci95": [
+        0.4076,
+        0.4526
+      ],
+      "f1_by_class": {
+        "dovish": 0.3083,
+        "hawkish": 0.2964,
+        "neutral": 0.6885
+      }
+    },
+    "by_year": [
+      {
+        "year": 1999,
+        "n_train": 224,
+        "n_test": 104,
+        "macro_f1": 0.2348
+      },
+      {
+        "year": 2000,
+        "n_train": 328,
+        "n_test": 105,
+        "macro_f1": 0.2208
+      },
+      {
+        "year": 2001,
+        "n_train": 433,
+        "n_test": 82,
+        "macro_f1": 0.2564
+      },
+      {
+        "year": 2002,
+        "n_train": 515,
+        "n_test": 65,
+        "macro_f1": 0.4073
+      },
+      {
+        "year": 2003,
+        "n_train": 580,
+        "n_test": 103,
+        "macro_f1": 0.2274
+      },
+      {
+        "year": 2004,
+        "n_train": 683,
+        "n_test": 145,
+        "macro_f1": 0.326
+      },
+      {
+        "year": 2005,
+        "n_train": 828,
+        "n_test": 141,
+        "macro_f1": 0.3665
+      },
+      {
+        "year": 2006,
+        "n_train": 969,
+        "n_test": 111,
+        "macro_f1": 0.4366
+      },
+      {
+        "year": 2007,
+        "n_train": 1080,
+        "n_test": 115,
+        "macro_f1": 0.3079
+      },
+      {
+        "year": 2008,
+        "n_train": 1195,
+        "n_test": 60,
+        "macro_f1": 0.5435
+      },
+      {
+        "year": 2009,
+        "n_train": 1255,
+        "n_test": 41,
+        "macro_f1": 0.5229
+      },
+      {
+        "year": 2010,
+        "n_train": 1296,
+        "n_test": 44,
+        "macro_f1": 0.4389
+      },
+      {
+        "year": 2011,
+        "n_train": 1340,
+        "n_test": 57,
+        "macro_f1": 0.5415
+      },
+      {
+        "year": 2012,
+        "n_train": 1397,
+        "n_test": 67,
+        "macro_f1": 0.5049
+      },
+      {
+        "year": 2013,
+        "n_train": 1464,
+        "n_test": 80,
+        "macro_f1": 0.4347
+      },
+      {
+        "year": 2014,
+        "n_train": 1544,
+        "n_test": 64,
+        "macro_f1": 0.4026
+      },
+      {
+        "year": 2015,
+        "n_train": 1608,
+        "n_test": 64,
+        "macro_f1": 0.448
+      },
+      {
+        "year": 2016,
+        "n_train": 1672,
+        "n_test": 65,
+        "macro_f1": 0.456
+      },
+      {
+        "year": 2017,
+        "n_train": 1737,
+        "n_test": 99,
+        "macro_f1": 0.3951
+      },
+      {
+        "year": 2018,
+        "n_train": 1836,
+        "n_test": 62,
+        "macro_f1": 0.4833
+      },
+      {
+        "year": 2019,
+        "n_train": 1898,
+        "n_test": 116,
+        "macro_f1": 0.5546
+      },
+      {
+        "year": 2020,
+        "n_train": 2014,
+        "n_test": 158,
+        "macro_f1": 0.52
+      },
+      {
+        "year": 2021,
+        "n_train": 2172,
+        "n_test": 170,
+        "macro_f1": 0.5186
+      },
+      {
+        "year": 2022,
+        "n_train": 2342,
+        "n_test": 138,
+        "macro_f1": 0.497
+      }
+    ]
+  }
+}

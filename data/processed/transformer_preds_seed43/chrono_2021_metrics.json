@@ -1,0 +1,16 @@
+{
+  "job": "chrono_2021",
+  "seed": 43,
+  "n_train": 2172,
+  "steps": 680,
+  "collapsed": false,
+  "train_years": [
+    1996,
+    2020
+  ],
+  "train_macro_f1": 0.9264,
+  "eval_n": 170,
+  "eval_accuracy": 0.7412,
+  "eval_macro_f1": 0.7143,
+  "minutes": 2.37
+}

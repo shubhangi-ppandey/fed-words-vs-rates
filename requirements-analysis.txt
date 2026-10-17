@@ -1,0 +1,18 @@
+# Offline research pipeline (analysis/01-13). Tested with Python 3.14 on Windows 11 + NVIDIA RTX 5070 Ti (CUDA 13).
+# The dashboard needs only requirements.txt.
+pandas==3.0.2
+numpy==2.4.3
+scipy==1.17.1
+scikit-learn==1.8.0
+statsmodels==0.15.0
+matplotlib==3.10.8
+requests==2.33.1
+beautifulsoup4==4.14.3
+lxml==6.1.0
+openpyxl==3.1.5
+# GPU step 04c (install the CUDA build of torch for your system: https://pytorch.org)
+torch==2.11.0
+transformers==5.7.0
+# paper generation (docx); PDF export uses Microsoft Word through pywin32 (Windows only)
+python-docx==1.2.0
+pywin32==311; sys_platform == "win32"
